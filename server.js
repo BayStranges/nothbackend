@@ -68,6 +68,7 @@ const menuData = {
           { name: 'Капучино', price: '25 TL', description: 'Эспрессо, молоко и пена смесь' }
         ]
       },
+
       {
         name: 'Чаи',
         image: 'images/chai.jpg',
