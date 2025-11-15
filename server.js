@@ -16,7 +16,17 @@ const menuData = {
         items: [
           { name: 'Espresso', price: '15 TL', description: 'Klasik espresso' },
           { name: 'Americano', price: '18 TL', description: 'Espresso ile su' },
-          { name: 'Latte', price: '22 TL', description: 'Espresso, süt ve köpük' }
+          { name: 'Latte', price: '22 TL', description: 'Espresso, süt ve köpük' },
+          { name: 'Cappuccino', price: '25 TL', description: 'Espresso, süt ve köpük karışımı' }
+        ]
+      },
+      {
+        name: 'Tatlılar',
+        image: 'images/tatlılar.jpg', // Assuming image exists or placeholder
+        items: [
+          { name: 'Baklava', price: '20 TL', description: 'Fıstıklı baklava' },
+          { name: 'Künefe', price: '25 TL', description: 'Peynirli künefe' },
+          { name: 'Kadayıf', price: '18 TL', description: 'Kadayıf tatlısı' }
         ]
       },
       {
@@ -24,7 +34,8 @@ const menuData = {
         image: 'images/caylar.jpg',
         items: [
           { name: 'Çay', price: '8 TL', description: 'Sıcak çay' },
-          { name: 'Yeşil Çay', price: '10 TL', description: 'Yeşil çay' }
+          { name: 'Yeşil Çay', price: '10 TL', description: 'Yeşil çay' },
+          { name: 'Nane Limon', price: '12 TL', description: 'Nane limon çayı' }
         ]
       }
     ]
@@ -37,7 +48,17 @@ const menuData = {
         items: [
           { name: 'Espresso', price: '15 TL', description: 'Classic espresso' },
           { name: 'Americano', price: '18 TL', description: 'Espresso with water' },
-          { name: 'Latte', price: '22 TL', description: 'Espresso, milk and foam' }
+          { name: 'Latte', price: '22 TL', description: 'Espresso, milk and foam' },
+          { name: 'Cappuccino', price: '25 TL', description: 'Espresso, milk and foam mix' }
+        ]
+      },
+      {
+        name: 'Desserts',
+        image: 'images/desserts.jpg', // Placeholder
+        items: [
+          { name: 'Baklava', price: '20 TL', description: 'Pistachio baklava' },
+          { name: 'Kunefe', price: '25 TL', description: 'Cheese kunefe' },
+          { name: 'Kadayıf', price: '18 TL', description: 'Kadayıf dessert' }
         ]
       },
       {
@@ -45,7 +66,8 @@ const menuData = {
         image: 'images/teas.jpg',
         items: [
           { name: 'Tea', price: '8 TL', description: 'Hot tea' },
-          { name: 'Green Tea', price: '10 TL', description: 'Green tea' }
+          { name: 'Green Tea', price: '10 TL', description: 'Green tea' },
+          { name: 'Mint Lemon', price: '12 TL', description: 'Mint lemon tea' }
         ]
       }
     ]
@@ -58,7 +80,17 @@ const menuData = {
         items: [
           { name: 'Эспрессо', price: '15 TL', description: 'Классический эспрессо' },
           { name: 'Американо', price: '18 TL', description: 'Эспрессо с водой' },
-          { name: 'Латте', price: '22 TL', description: 'Эспрессо, молоко и пена' }
+          { name: 'Латте', price: '22 TL', description: 'Эспрессо, молоко и пена' },
+          { name: 'Капучино', price: '25 TL', description: 'Эспрессо, молоко и пена смесь' }
+        ]
+      },
+      {
+        name: 'Десерты',
+        image: 'images/desserts.jpg', // Placeholder
+        items: [
+          { name: 'Баклава', price: '20 TL', description: 'Фисташковая баклава' },
+          { name: 'Кюнефе', price: '25 TL', description: 'Сырная кюнефе' },
+          { name: 'Кадайф', price: '18 TL', description: 'Десерт кадайф' }
         ]
       },
       {
@@ -66,7 +98,8 @@ const menuData = {
         image: 'images/chai.jpg',
         items: [
           { name: 'Чай', price: '8 TL', description: 'Горячий чай' },
-          { name: 'Зеленый Чай', price: '10 TL', description: 'Зеленый чай' }
+          { name: 'Зеленый Чай', price: '10 TL', description: 'Зеленый чай' },
+          { name: 'Мятный Лимон', price: '12 TL', description: 'Мятный лимонный чай' }
         ]
       }
     ]
