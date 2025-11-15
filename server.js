@@ -23,15 +23,6 @@ const menuData = {
         ]
       },
       {
-        name: 'Tatlılar',
-        image: 'images/kahveler.jpg',
-        items: [
-          { name: 'Baklava', price: '20 TL', description: 'Fıstıklı baklava' },
-          { name: 'Künefe', price: '25 TL', description: 'Peynirli künefe' },
-          { name: 'Kadayıf', price: '18 TL', description: 'Kadayıf tatlısı' }
-        ]
-      },
-      {
         name: 'Çaylar',
         image: 'images/caylar.jpg',
         items: [
@@ -55,15 +46,6 @@ const menuData = {
         ]
       },
       {
-        name: 'Desserts',
-        image: 'images/coffees.jpg',
-        items: [
-          { name: 'Baklava', price: '20 TL', description: 'Pistachio baklava' },
-          { name: 'Kunefe', price: '25 TL', description: 'Cheese kunefe' },
-          { name: 'Kadayıf', price: '18 TL', description: 'Kadayıf dessert' }
-        ]
-      },
-      {
         name: 'Teas',
         image: 'images/teas.jpg',
         items: [
@@ -84,15 +66,6 @@ const menuData = {
           { name: 'Американо', price: '18 TL', description: 'Эспрессо с водой' },
           { name: 'Латте', price: '22 TL', description: 'Эспрессо, молоко и пена' },
           { name: 'Капучино', price: '25 TL', description: 'Эспрессо, молоко и пена смесь' }
-        ]
-      },
-      {
-        name: 'Десерты',
-        image: 'images/kofe.jpg',
-        items: [
-          { name: 'Баклава', price: '20 TL', description: 'Фисташковая баклава' },
-          { name: 'Кюнефе', price: '25 TL', description: 'Сырная кюнефе' },
-          { name: 'Кадайф', price: '18 TL', description: 'Десерт кадайф' }
         ]
       },
       {
