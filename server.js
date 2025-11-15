@@ -24,7 +24,7 @@ const menuData = {
       },
       {
         name: 'Tatlılar',
-        image: 'images/tatlılar.jpg', // Assuming image exists or placeholder
+        image: 'images/kahveler.jpg',
         items: [
           { name: 'Baklava', price: '20 TL', description: 'Fıstıklı baklava' },
           { name: 'Künefe', price: '25 TL', description: 'Peynirli künefe' },
@@ -56,7 +56,7 @@ const menuData = {
       },
       {
         name: 'Desserts',
-        image: 'images/desserts.jpg', // Placeholder
+        image: 'images/coffees.jpg',
         items: [
           { name: 'Baklava', price: '20 TL', description: 'Pistachio baklava' },
           { name: 'Kunefe', price: '25 TL', description: 'Cheese kunefe' },
@@ -88,7 +88,7 @@ const menuData = {
       },
       {
         name: 'Десерты',
-        image: 'images/desserts.jpg', // Placeholder
+        image: 'images/kofe.jpg',
         items: [
           { name: 'Баклава', price: '20 TL', description: 'Фисташковая баклава' },
           { name: 'Кюнефе', price: '25 TL', description: 'Сырная кюнефе' },
