@@ -16,116 +16,225 @@ const menuData = {
         name: 'Kruvasan',
         image: 'images/logo.png', // Placeholder image
         items: [
-          { name: 'Klasik Kruvasan', price: '12 TL', description: 'Taze kruvasan' },
-          { name: 'Çikolatalı Kruvasan', price: '15 TL', description: 'Çikolata dolgulu kruvasan' }
+          { name: 'ORTA BOY KLASIK KRUVASAN', price: '₺ 200', description: 'SALATALIK, MARUL, DOMATES, KAŞAR PEYNİRİ, FÜME ET' },
+          { name: 'BÜYÜK BOY KLASIK KRUVASAN', price: '₺ 250', description: 'SALATALIK, MARUL, DOMATES, KAŞAR PEYNİRİ, FÜME ET' },
+          { name: 'ORTA BOY KURU DOMATES KRUVASAN', price: '₺ 200', description: 'SALATALIK, MARUL, DOMATES, KURU DOMATES, ÇEÇİL PEYNİRİ' },
+          { name: 'BÜYÜK BOY KURU DOMATES KRUVASAN', price: '₺ 250', description: 'SALATALIK, MARUL, DOMATES, KURU DOMATES, ÇEÇİL PEYNİRİ' },
+          { name: 'ORTA BOY TON BALIKLI KRUVASAN', price: '₺ 210', description: 'BEYAZ PEYNİR, MISIR SOSU, TON BALIĞI, MARUL, SALATALIK' },
+          { name: 'BÜYÜK BOY TON BALIKLI KRUVASAN', price: '₺ 260', description: 'BEYAZ PEYNİR, MISIR SOSU, TON BALIĞI, MARUL, SALATALIK' },
+          { name: 'ORTA BOY FISTIKLI KRUVASAN', price: '₺ 260', description: 'ANTEP FISTIĞI , KREMA , SÜTLÜ ÇİOKLATA' },
+          { name: 'BÜYÜK BOY FISTIKLI KRUVASAN', price: '₺ 310', description: 'ANTEP FISTIĞI , KREMA , SÜTLÜ ÇİKOLATA İSTEĞE GÖRE (ÇİLEK , MUZ)' },
+          { name: 'ORTA BOY ÇİKOLATALI KRUVASAN', price: '₺ 250', description: 'KREMA , SÜTLÜ ÇİOKLATA , BADEM , ÇİLEK İSTEĞE GÖRE (ÇİLEK , MUZ) & (BADEM , FINDIK)' },
+          { name: 'BÜYÜK BOY ÇİKOLATALI KRUVASAN', price: '₺ 300', description: 'KREMA , SÜTLÜ ÇİOKLATA , BADEM İSTEĞE GÖRE (ÇİLEK , MUZ)' }
         ]
       },
       {
         name: 'Tatlılar',
         image: 'images/logo.png', // Placeholder image
         items: [
-          { name: 'Cheesecake', price: '25 TL', description: 'Kremalı cheesecake' },
-          { name: 'Çikolatalı Pasta', price: '22 TL', description: 'Çikolata pasta' }
+          { name: 'PAVLOVA', price: '₺ 300', description: '' },
+          { name: 'DUBAİ ÇİKOLATALI BROWNIE', price: '₺ 350', description: '' },
+          { name: 'MAGNOLIA', price: '₺ 250', description: '' },
+          { name: 'SPONFOOL', price: '₺ 250', description: '' },
+          { name: 'SAN SEBASTIAN', price: '₺ 250', description: '' },
+          { name: 'PANKEK (ŞİŞ)', price: '₺ 250', description: '' },
+          { name: 'PANKEK (TABAK)', price: '₺ 280', description: '' },
+          { name: 'BROWNİE', price: '₺ 260', description: '' },
+          { name: 'DONUT', price: '₺ 180', description: '' },
+          { name: 'ÇİKOLATALI CHEESECAKE', price: '₺ 250', description: '' },
+          { name: 'FISTIKLI VELVET', price: '₺ 250', description: '' },
+          { name: 'MOZAİK PASTA', price: '₺ 250', description: '' },
+          { name: 'DUBAİ ÇİKOLATALI MAGNOLİA', price: '₺ 350', description: '' },
+          { name: 'DUBAİ ÇİKOLATALI CHEESECAKE', price: '₺ 350', description: '' },
+          { name: 'SÜTLAÇ', price: '₺ 250', description: '' },
+          { name: 'TİRAMİSU', price: '₺ 250', description: '' },
+          { name: 'PARİS BREST', price: '₺ 250', description: '' },
+          { name: 'MUZLU RULO', price: '₺ 250', description: '' },
+          { name: 'TRİLİÇE', price: '₺ 250', description: '' },
+          { name: 'BEYAZ ORMAN İNCİSİ', price: '₺ 250', description: '' },
+          { name: 'CEDRİC GROLET PİSTACHİO', price: '₺ 400', description: '' },
+          { name: 'PROFITEROL', price: '₺ 250', description: '' },
+          { name: 'AY ÇEKİRDEKLİ KURABİYE (KUTU)', price: '₺ 100', description: '' },
+          { name: 'MACADAMLA FINDIKLI & SÜTLÜ ÇİKOLATALI KURABİYE (KUTU)', price: '₺ 100', description: '' },
+          { name: 'BROWNİE KURABİYE', price: '₺ 70', description: '' },
+          { name: 'MACADAMLA FINDIKLI & SÜTLÜ ÇİKOLATALI KURABİYE', price: '₺ 70', description: '' },
+          { name: 'LİMONLU & BEYAZ ÇİKOLATALI KURABİYE', price: '₺ 70', description: '' },
+          { name: 'SÜTLÜ ÇİKOLATALI KURABİYE', price: '₺ 70', description: '' }
         ]
       },
       {
         name: 'Limonatalar',
         image: 'images/logo.png', // Placeholder image
         items: [
-          { name: 'Limonata', price: '10 TL', description: 'Taze limonata' },
-          { name: 'Naneli Limonata', price: '12 TL', description: 'Nane ile limonata' }
+          { name: 'SADE LİMONATA', price: '₺ 120', description: '' },
+          { name: 'NANELİ LİMONATA', price: '₺ 130', description: '' },
+          { name: 'ELMALI LİMONATA', price: '₺ 130', description: '' },
+          { name: 'ORMAN MEYVELİ LİMONATA', price: '₺ 140', description: '' },
+          { name: 'ÇİLEKLİ LİMONATA', price: '₺ 140', description: '' },
+          { name: 'FESLEĞEN LİMONATA', price: '₺ 130', description: '' },
+          { name: 'BLUE GRAPE', price: '₺ 190', description: '' },
+          { name: 'RED DREAM', price: '₺ 190', description: '' }
         ]
       },
       {
         name: 'FRAPPE - MILKSHAKE - FRAPPUCCINO',
         image: 'images/logo.png', // Placeholder image
         items: [
-          { name: 'Frappe', price: '20 TL', description: 'Buzlu kahve frape' },
-          { name: 'Milkshake', price: '18 TL', description: 'Sütlü milkshake' },
-          { name: 'Frappuccino', price: '22 TL', description: 'Buzlu frappuccino' }
+          { name: 'ÇİKOLATALI FRAPPE', price: '₺ 175', description: '' },
+          { name: 'BEYAZ ÇİKOLATALI FRAPPE', price: '₺ 175', description: '' },
+          { name: 'MUZLU FRAPPE', price: '₺ 175', description: '' },
+          { name: 'ÇİLEKLİ FRAPPE', price: '₺ 175', description: '' },
+          { name: 'MANGOLU FRAPPE', price: '₺ 175', description: '' },
+          { name: 'KAVUNLU FRAPPE', price: '₺ 175', description: '' },
+          { name: 'HİNDİSTAN CEVİZLİ FRAPPE', price: '₺ 175', description: '' },
+          { name: 'KAHVELİ FRAPPE', price: '₺ 175', description: '' },
+          { name: 'ŞEFTALİ FRAPPE', price: '₺ 175', description: '' },
+          { name: 'VANİLYA FRAPPE', price: '₺ 175', description: '' },
+          { name: 'KIRMIZI ORMAN MEYVELİ FRAPPE', price: '₺ 175', description: '' },
+          { name: 'KARAMEL FRAPPUCCINO', price: '₺ 175', description: '' },
+          { name: 'ÇİKOLATALI FRAPPUCCINO', price: '₺ 175', description: '' },
+          { name: 'VANİLYALI FRAPPUCCINO', price: '₺ 175', description: '' },
+          { name: 'KARAMEL FRAPPE', price: '₺ 175', description: '' },
+          { name: 'ÇİLEKLİ MILKSHAKE', price: '₺ 175', description: '' },
+          { name: 'OREO MILKSHAKE', price: '₺ 175', description: '' },
+          { name: 'MUZLU MILKSHAKE', price: '₺ 175', description: '' },
+          { name: 'KARAMEL MILKSHAKE', price: '₺ 175', description: '' },
+          { name: 'ÇİKOLATALI MILKSHAKE', price: '₺ 175', description: '' }
         ]
       },
       {
         name: 'SICAK KAHVELER',
         image: 'images/kahveler.jpg',
         items: [
-          { name: 'Espresso', price: '15 TL', description: 'Klasik espresso' },
-          { name: 'Americano', price: '18 TL', description: 'Espresso ile su' },
-          { name: 'Latte', price: '22 TL', description: 'Espresso, süt ve köpük' },
-          { name: 'Cappuccino', price: '25 TL', description: 'Espresso, süt ve köpük karışımı' }
+          { name: 'CAPPUCCINO', price: '₺ 140', description: '' },
+          { name: 'MOCHA', price: '₺ 160', description: '' },
+          { name: 'WHİTE MOCHA', price: '₺ 160', description: '' },
+          { name: 'ESPRESSO MACHIATO', price: '₺ 110', description: '' },
+          { name: 'CORTADO', price: '₺ 120', description: '' },
+          { name: 'FLAT WHITE', price: '₺ 140', description: '' },
+          { name: 'LATTE MACHIATO', price: '₺ 130', description: '' },
+          { name: 'ESPRESSO', price: '₺ 85', description: '' },
+          { name: 'DOUBLE ESPRESSO', price: '₺ 95', description: '' },
+          { name: 'AMERICANO', price: '₺ 130', description: '' },
+          { name: 'LATTE', price: '₺ 140', description: '' },
+          { name: 'AROMALI LATTE', price: '₺ 160', description: '' },
+          { name: 'FILTRE KAHVE', price: '₺ 130', description: '' },
+          { name: 'SÜTLÜ FİLTRE KAHVE', price: '₺ 140', description: '' },
+          { name: 'BADEM SÜTÜ', price: '₺ 30', description: '' },
+          { name: 'LAKTOZSUZ SÜT', price: '₺ 20', description: '' }
         ]
       },
       {
         name: 'SMOOTHIE - FROZEN',
         image: 'images/logo.png', // Placeholder image
         items: [
-          { name: 'Meyveli Smoothie', price: '20 TL', description: 'Taze meyveli smoothie' },
-          { name: 'Frozen Latte', price: '22 TL', description: 'Buzlu latte' }
+          { name: 'ŞEFTALİ SMOOTHIE', price: '₺ 175', description: '' },
+          { name: 'ÇİLEKLİ SMOOTHIE', price: '₺ 175', description: '' },
+          { name: 'KARPUZLU SMOOTHIE', price: '₺ 175', description: '' },
+          { name: 'MANGO SMOOTHIE', price: '₺ 175', description: '' },
+          { name: 'ORMAN MEYVELİ SMOOTHIE', price: '₺ 175', description: '' },
+          { name: 'KARADUT SMOOTHIE', price: '₺ 175', description: '' },
+          { name: 'ŞEFTALİ FROZEN', price: '₺ 175', description: '' },
+          { name: 'ÇİLEKLİ FROZEN', price: '₺ 175', description: '' },
+          { name: 'KARPUZLU FROZEN', price: '₺ 175', description: '' },
+          { name: 'MANGO FROZEN', price: '₺ 175', description: '' },
+          { name: 'ORMAN MEYVELI FROZEN', price: '₺ 175', description: '' },
+          { name: 'KARADUT FROZEN', price: '₺ 175', description: '' },
+          { name: 'NOTH-MIX', price: '₺ 175', description: '' }
         ]
       },
       {
         name: 'SICAK İÇECEKLER',
         image: 'images/logo.png', // Placeholder image
         items: [
-          { name: 'Sıcak Çikolata', price: '18 TL', description: 'Sıcak çikolata' },
-          { name: 'Sıcak Limonata', price: '15 TL', description: 'Sıcak limonata' }
+          { name: 'SICAK ÇİKOLATA', price: '₺ 150', description: '' },
+          { name: 'BEYAZ SICAK ÇİKOLATA', price: '₺ 150', description: '' },
+          { name: 'SAHLEP', price: '₺ 150', description: '' },
+          { name: 'BALLI SÜT', price: '₺ 120', description: '' }
         ]
       },
       {
         name: 'SOĞUK KAHVELER',
         image: 'images/coffees.jpg',
         items: [
-          { name: 'Ice Coffee', price: '20 TL', description: 'Buzlu kahve' },
-          { name: 'Cold Brew', price: '22 TL', description: 'Soğuk demleme kahve' }
+          { name: 'ICE AMERICANO', price: '₺ 140', description: '' },
+          { name: 'ICE LATTE', price: '₺ 150', description: '' },
+          { name: 'ICE MOCHA', price: '₺ 170', description: '' },
+          { name: 'ICE CARAMEL MACCHIATO', price: '₺ 170', description: '' },
+          { name: 'ICE FILTRE KAHVE', price: '₺ 150', description: '' },
+          { name: 'ICE CHAI TEA LATTE', price: '₺ 150', description: '' },
+          { name: 'ICE IRISH CREAM', price: '₺ 170', description: '' },
+          { name: 'ICE AROMALI LATTE', price: '₺ 170', description: '' },
+          { name: 'ICE WHITE MOCHA', price: '₺ 170', description: '' },
+          { name: 'ICE FLAT WHITE', price: '₺ 150', description: '' },
+          { name: 'ICE BERRY WHITE', price: '₺ 170', description: '' }
         ]
       },
       {
         name: 'ÇAY - BİTKİ ÇAYLARI',
         image: 'images/caylar.jpg',
         items: [
-          { name: 'Çay', price: '8 TL', description: 'Sıcak çay' },
-          { name: 'Yeşil Çay', price: '10 TL', description: 'Yeşil çay' },
-          { name: 'Nane Limon', price: '12 TL', description: 'Nane limon çayı' },
-          { name: 'Ihlamur', price: '10 TL', description: 'Ihlamur çayı' }
+          { name: 'ÇAY', price: '₺ 50', description: '' },
+          { name: 'FİNCAN ÇAY', price: '₺ 70', description: '' },
+          { name: 'TAKEAWAY ÇAY', price: '₺ 80', description: '' },
+          { name: 'KIŞ ÇAYI', price: '₺ 130', description: '' },
+          { name: 'ADA ÇAYI', price: '₺ 140', description: '' },
+          { name: 'IHLAMUR', price: '₺ 130', description: '' },
+          { name: 'KUŞBURNU', price: '₺ 130', description: '' },
+          { name: 'YEŞİL ÇAY', price: '₺ 130', description: '' },
+          { name: 'PAPATYA', price: '₺ 130', description: '' },
+          { name: 'NANE LİMON', price: '₺ 130', description: '' },
+          { name: 'MELİSA', price: '₺ 130', description: '' },
+          { name: 'REZENE', price: '₺ 130', description: '' }
         ]
       },
       {
         name: 'TÜRK KAHVESİ',
         image: 'images/logo.png', // Placeholder image
         items: [
-          { name: 'Türk Kahvesi', price: '15 TL', description: 'Klasik Türk kahvesi' },
-          { name: 'Sütlü Türk Kahvesi', price: '18 TL', description: 'Sütlü Türk kahvesi' }
+          { name: 'TÜRK KAHVESİ', price: '₺ 100', description: '' },
+          { name: 'TARSUSİ TÜRK KAHVESİ', price: '₺ 110', description: '' },
+          { name: 'SÜTLÜ TÜRK KAHVESİ', price: '₺ 115', description: '' },
+          { name: 'DOUBLE TÜRK KAHVESİ', price: '₺ 115', description: '' },
+          { name: 'DAMLA SAKIZLI TÜRK KAHVESİ', price: '₺ 110', description: '' },
+          { name: 'DAMLA SAKIZLI TARSUSİ TÜRK KAHVESİ', price: '₺ 115', description: '' },
+          { name: 'DİBEK', price: '₺ 115', description: '' }
         ]
       },
-      {
-        name: 'BUBBLE TEA',
-        image: 'images/logo.png', // Placeholder image
-        items: [
-          { name: 'Çilek Bubble Tea', price: '20 TL', description: 'Çilek aromalı bubble tea' },
-          { name: 'Yeşil Çay Bubble Tea', price: '18 TL', description: 'Yeşil çay bubble tea' }
-        ]
-      },
+
       {
         name: 'SOĞUK MEŞRUBAT & SERVİS',
         image: 'images/logo.png', // Placeholder image
         items: [
-          { name: 'Kola', price: '10 TL', description: 'Soğuk kola' },
-          { name: 'Gazoz', price: '8 TL', description: 'Gazoz' }
+          { name: 'MEYVELİ SODA', price: '₺ 70', description: '' },
+          { name: 'SADE SODA', price: '₺ 50', description: '' },
+          { name: 'ŞİŞE SU', price: '₺ 35', description: '' },
+          { name: 'CHURCILL', price: '₺ 75', description: '' },
+          { name: 'FUSE TEA', price: '₺ 90', description: '' },
+          { name: 'COCA COLA', price: '₺ 90', description: '' },
+          { name: 'SERVİS', price: '₺ 40', description: '' },
+          { name: 'RED BULL', price: '₺ 140', description: '' }
         ]
       },
       {
         name: 'TOST',
         image: 'images/logo.png', // Placeholder image
         items: [
-          { name: 'Kaşarlı Tost', price: '15 TL', description: 'Kaşar peynirli tost' },
-          { name: 'Sucuklu Tost', price: '18 TL', description: 'Sucuklu tost' }
+          { name: 'Kaşarlı Tost', price: '₺ 150', description: '' },
+          { name: 'Karışık Tost', price: '₺ 180', description: 'Salam , Kaşar' },
+          { name: 'Ayvalık Tost', price: '₺ 190', description: 'Salam , Kaşar , Turşu , Ketçap , Sosis' }
         ]
       },
       {
         name: 'COOL MİXX',
         image: 'images/logo.png', // Placeholder image
         items: [
-          { name: 'Cool Mix İçecek', price: '20 TL', description: 'Karışık soğuk içecek' }
+          { name: 'MANGO MİXX', price: '₺ 180', description: '' },
+          { name: 'BERRY MİXX', price: '₺ 180', description: '' },
+          { name: 'COOL LİME MİXX', price: '₺ 180', description: '' },
+          { name: 'KARPUZ MİXX', price: '₺ 180', description: '' },
+          { name: 'NAR KAVUN MİXX', price: '₺ 180', description: '' },
+          { name: 'NANE LİMON MİXX', price: '₺ 180', description: '' }
         ]
       }
     ]
