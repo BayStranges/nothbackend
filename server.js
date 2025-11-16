@@ -30,7 +30,7 @@ const menuData = {
       },
       {
         name: 'Tatlılar',
-        image: 'images/logo.png', // Placeholder image
+        image: 'images/tatlı.png', // Placeholder image
         items: [
           { name: 'PAVLOVA', price: '₺ 300', description: '' },
           { name: 'DUBAİ ÇİKOLATALI BROWNIE', price: '₺ 350', description: '' },
@@ -64,7 +64,7 @@ const menuData = {
       },
       {
         name: 'Limonatalar',
-        image: 'images/logo.png', // Placeholder image
+        image: 'images/limonata.png', // Placeholder image
         items: [
           { name: 'SADE LİMONATA', price: '₺ 120', description: '' },
           { name: 'NANELİ LİMONATA', price: '₺ 130', description: '' },
@@ -78,7 +78,7 @@ const menuData = {
       },
       {
         name: 'FRAPPE - MILKSHAKE - FRAPPUCCINO',
-        image: 'images/logo.png', // Placeholder image
+        image: 'images/milkshake.png', // Placeholder image
         items: [
           { name: 'ÇİKOLATALI FRAPPE', price: '₺ 175', description: '' },
           { name: 'BEYAZ ÇİKOLATALI FRAPPE', price: '₺ 175', description: '' },
@@ -125,7 +125,7 @@ const menuData = {
       },
       {
         name: 'SMOOTHIE - FROZEN',
-        image: 'images/logo.png', // Placeholder image
+        image: 'images/smoothie.png', // Placeholder image
         items: [
           { name: 'ŞEFTALİ SMOOTHIE', price: '₺ 175', description: '' },
           { name: 'ÇİLEKLİ SMOOTHIE', price: '₺ 175', description: '' },
@@ -144,7 +144,7 @@ const menuData = {
       },
       {
         name: 'SICAK İÇECEKLER',
-        image: 'images/logo.png', // Placeholder image
+        image: 'images/chocolate.png', // Placeholder image
         items: [
           { name: 'SICAK ÇİKOLATA', price: '₺ 150', description: '' },
           { name: 'BEYAZ SICAK ÇİKOLATA', price: '₺ 150', description: '' },
@@ -154,7 +154,7 @@ const menuData = {
       },
       {
         name: 'SOĞUK KAHVELER',
-        image: 'images/coffees.jpg',
+        image: 'images/ice.png',
         items: [
           { name: 'ICE AMERICANO', price: '₺ 140', description: '' },
           { name: 'ICE LATTE', price: '₺ 150', description: '' },
@@ -189,7 +189,7 @@ const menuData = {
       },
       {
         name: 'TÜRK KAHVESİ',
-        image: 'images/logo.png', // Placeholder image
+        image: 'images/tr.png', // Placeholder image
         items: [
           { name: 'TÜRK KAHVESİ', price: '₺ 100', description: '' },
           { name: 'TARSUSİ TÜRK KAHVESİ', price: '₺ 110', description: '' },
@@ -203,7 +203,7 @@ const menuData = {
 
       {
         name: 'SOĞUK MEŞRUBAT & SERVİS',
-        image: 'images/logo.png', // Placeholder image
+        image: 'images/cola.png', // Placeholder image
         items: [
           { name: 'MEYVELİ SODA', price: '₺ 70', description: '' },
           { name: 'SADE SODA', price: '₺ 50', description: '' },
@@ -217,7 +217,7 @@ const menuData = {
       },
       {
         name: 'TOST',
-        image: 'images/logo.png', // Placeholder image
+        image: 'images/tost.png', // Placeholder image
         items: [
           { name: 'Kaşarlı Tost', price: '₺ 150', description: '' },
           { name: 'Karışık Tost', price: '₺ 180', description: 'Salam , Kaşar' },
@@ -226,7 +226,7 @@ const menuData = {
       },
       {
         name: 'COOL MİXX',
-        image: 'images/logo.png', // Placeholder image
+        image: 'images/cool.png', // Placeholder image
         items: [
           { name: 'MANGO MİXX', price: '₺ 180', description: '' },
           { name: 'BERRY MİXX', price: '₺ 180', description: '' },
