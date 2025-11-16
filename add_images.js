@@ -7,9 +7,12 @@ let serverContent = fs.readFileSync(serverPath, 'utf8');
 
 // Function to add image to items
 function addImageToItems(content) {
-  // Regex to match items without image, handling empty descriptions
-  const itemRegex = /(\{ name: '[^']+', price: '[^']+', description: '[^']*') \}/g;
-  return content.replace(itemRegex, "$1, image: 'images/logo.png' }");
+  // Regex to match items
+  const itemRegex = /(\{ name: '[^']+', price: '[^']+', description: '[^']*' \})/g;
+  return content.replace(itemRegex, (match) => {
+    if (match.includes('image:')) return match;
+    return match.replace('}', ', image: \'images/logo.png\' }');
+  });
 }
 
 // Apply the transformation
