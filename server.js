@@ -235,8 +235,8 @@ const menuData = {
           { name: 'LARGE TUNA CROISSANT', price: '₺ 300', description: 'FETA CHEESE, CORN SAUCE, TUNA, LETTUCE, CUCUMBER' },
           { name: 'MEDIUM PISTACHIO CROISSANT', price: '₺ 300', description: 'PISTACHIO, CREAM, MILK CHOCOLATE' },
           { name: 'LARGE PISTACHIO CROISSANT', price: '₺ 350', description: 'PISTACHIO, CREAM, MILK CHOCOLATE (STRAWBERRY, BANANA OPTIONAL)' },
-          { name: 'MEDIUM CHOCOLATE CROISSANT', price: '₺ 290', description: 'CREAM, MILK CHOCOLATE, ALMOND, STRAWBERRY (STRAWBERRY, BANANA & ALMOND, HAZELNUT OPTIONAL)' },
-          { name: 'LARGE CHOCOLATE CROISSANT', price: '₺ 340', description: 'CREAM, MILK CHOCOLATE, ALMOND (STRAWBERRY, BANANA OPTIONAL)' }
+          { name: 'MEDIUM CHOCOLATE CROISSANT', price: '₺ 290', description: 'CREAM, MILK CHOCOLATE, ALM, STRAWBERRY (STRAWBERRY, BANANA & ALM, HAZELNUT OPTIONAL)' },
+          { name: 'LARGE CHOCOLATE CROISSANT', price: '₺ 340', description: 'CREAM, MILK CHOCOLATE, ALM (STRAWBERRY, BANANA OPTIONAL)' }
         ]
       },
       {
@@ -273,7 +273,7 @@ const menuData = {
           { name: 'FLAVORED LATTE', price: '₺ 180', description: '' },
           { name: 'FILTER COFFEE', price: '₺ 150', description: '' },
           { name: 'MILKY FILTER COFFEE', price: '₺ 160', description: '' },
-          { name: 'ALMOND MILK', price: '₺ 50', description: '' },
+          { name: 'ALM MILK', price: '₺ 50', description: '' },
           { name: 'LACTOSE-FREE MILK', price: '₺ 40', description: '' }
         ]
       },
